@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col col-sm-12">
+				<div class="header">
+					<h1>StockTracker</h1>
+				</div>
+			</div>
+		</div>
+
+		
+		<form  class="quoteSearch">	
+			<input class="searchbox" type="text"/>
+			<button class="btn btn-lg quoteIt">Quote It!</button>
+		</form>
+		
+
+		<div class="row">
+        	<div class="col-md-8 col-md-offset-2"> 
+				<div class="myStocks">
+			
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+        	<div class="col-md-8 col-md-offset-2"> 
+				<div class="trackedStocks">
+        			<div class="panel panel-default">
+  	   	  				<div class="panel-heading">My Stocks</div>	
+		          			<div class="table-responsive">
+		            			<table class="table">
+  	          						<thead class="tableHead">
+  	          		  					<th>Symbol</th>
+  	          		  					<th>Name</th>
+  	          		  					<th>Exchange</th>
+  	          		  					<th>Last Price</th>	
+  	          		  					<th>Change</th>
+  	          						</thead>
+                 					<tbody class="tracked">    
+  	          							<tr class="rowTemplate hidden update" id="rowTemplateId">
+  	          								<td id="stockSym">symbol</td>
+  	          								<td id="stockName">name</td>
+  	          								<td id="stockExch">exchange</td>
+  	          								<td id="stockPrice">last price</td>	
+  	          								<td id="stockChange">change</td>
+  	          								<td><button class="remove">X</button></td> 
+  	          							</tr>
+                  					</tbody>
+  	          					</table>
+  	       					</div>
+  	   	  				</div><!-- panel heading -->
+	       			</div> 
+      			</div>
+    		</div>
+    	</div>
+	</div><!-- container -->
+</body>
+</html>
