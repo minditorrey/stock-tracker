@@ -1,0 +1,103 @@
+body {
+	margin-top: 0;
+	background-color: #530382;
+	color: white;
+
+}
+
+h1 {
+	font-size: 62px;
+	
+	
+}
+
+.btn {
+	color: #530382;
+	box-shadow: 2px 2px 2px black;
+	margin: 1%;
+	font-weight: bold;
+}
+
+
+.header {
+	background-color: black;
+	height: 120px;
+	width: 120%;
+	padding-left: 100px;
+	padding-top: 10px;
+	margin-top: 0%;
+	margin-left: -5%;
+	width: 110%;
+
+}
+
+.quoteSearch {
+	margin-top: 5%;
+
+}
+
+
+
+.searchbox {
+	color: black;
+	font-weight: bold;
+}
+
+.card {
+	margin-top: 3%;
+	margin-right: 15px;
+	border: 3px solid black;
+	box-shadow: 3px 3px 3px black;
+	height: 180px;
+	width: 275px;
+	padding: 8px;
+	font-size: 14px;
+	background-color: #EFE6F5;
+	color: #530382;
+	font-weight: bold;
+	float: left;
+	border-radius: 20px;
+}
+
+.quoteSearch, .myStocks {
+	padding-left: 5%;
+}
+
+.trackIt {
+	background-color: black;
+	color: white;
+	box-shadow: 2px 2px 2px gray;
+	float: right;
+	}
+
+.hidden {
+	display: none;
+}
+
+.trackedStocks {
+	margin-top: 10%;
+}
+
+.table-responsive {
+	box-shadow: 2px 2px 2px black;
+
+}
+.table {
+	color: black;
+	margin-top: 5%;
+	
+}
+
+.panel .panel-heading {
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+}
+.remove {
+	background-color: #C390D4;
+	font-weight: bold;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px gray;
+}
